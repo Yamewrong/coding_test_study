@@ -25,9 +25,9 @@ git checkout -b feature/{이름}/week01
 자신의 폴더 안에 저장
 📂 week01
  ├── 📂 yamewrong
- │   ├── problem_1000_박민용.py
- │   ├── problem_1330_박민용.py
- │   ├── problem_2562_박민용.py
+ │   ├── 1000_박민용.py
+ │   ├── 1330_박민용.py
+ │   ├── 2562_박민용.py
 
 커밋 후 Github에 Push
 git add week01/yamewrong/problem_1000_박민용.py
