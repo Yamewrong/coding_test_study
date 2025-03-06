@@ -50,12 +50,16 @@ git checkout -b feature/{이름}/week{번호}
 ```sh
 git checkout -b feature/yamewrong/week01
 ```
-
+# 1️⃣ 자신의 폴더 생성 후 문제 풀이 추가
+```sh
+mkdir week01/계정명
+mv problem_1000_이름.py week01/계정명/problem_1000_이름.py
+```
 ### 📌 3. 문제 풀이 후 코드 업로드
 ```sh
-git add problem_1000_박민용.py
+git add week01/계정명/problem_1000_이름.py
 git commit -m "[Week01] A+B 문제 풀이 - 박민용"
-git push origin feature/계정명/week01
+git push origin feature/계정명/week011
 ```
 
 ### 📌 4. PR(Pull Request) 생성 & 코드 리뷰
