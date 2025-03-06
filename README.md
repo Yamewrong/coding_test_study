@@ -11,8 +11,8 @@
 📂 coding-test-study
  ├── 📂 week01  # 1주차 문제 풀이
  │   ├── README.md  # 1주차 문제 설명
- │   ├── problem_1000_박민용.py  # A+B 문제 풀이
- │   ├── problem_2557_박민용.py  # Hello World 문제 풀이
+ │   ├── 1000_박민용.py  # A+B 문제 풀이
+ │   ├── 2557_박민용.py  # Hello World 문제 풀이
  │   └── ...
  ├── 📂 week02  # 2주차 문제 풀이
  ├── 📂 solutions  # 참고 풀이 모음
@@ -53,11 +53,11 @@ git checkout -b feature/yamewrong/week01
 # 1️⃣ 자신의 폴더 생성 후 문제 풀이 추가
 ```sh
 mkdir week01/계정명
-mv problem_1000_이름.py week01/계정명/problem_1000_이름.py
+mv 1000_이름.py week01/계정명/1000_이름.py
 ```
 ### 📌 3. 문제 풀이 후 코드 업로드
 ```sh
-git add week01/계정명/problem_1000_이름.py
+git add week01/계정명/1000_이름.py
 git commit -m "[Week01] A+B 문제 풀이 - 박민용"
 git push origin feature/계정명/week011
 ```
