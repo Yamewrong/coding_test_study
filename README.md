@@ -38,7 +38,7 @@
 
 ### 📌 1. 레포지토리 클론하기
 ```sh
-git clone https://github.com/yamewrong/coding-test-study.git
+git clone https://github.com/yamewrong/coding_test_study.git
 cd coding-test-study
 ```
 
